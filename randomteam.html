@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Random Team Generator</title>
+  </head>
+  <body>
+    <h1>Random Team Generator</h1>
+    <h3>Enter Names</h3>
+    <h4>Write each name on a separate line</h4>
+    <textarea id="players" cols="20" rows="10">Billy
+Chris
+Joe
+Frank
+Vonte
+Sarah
+Felicia
+Christie
+Leslie
+    </textarea>
+    <p>Number of teams
+    <input type="number" id="num-teams" value="2" min="2" />
+      </p>
+    <input id="generate" type = "submit" value = "Generate Random Teams" onclick="generateTeams()" />
+    <div id="teams">
+    </div>
+  </body>
+</html>
